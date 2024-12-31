@@ -58,6 +58,27 @@ namespace OOP02
             //    Console.WriteLine(note[i]);
             //}
             #endregion
+            #region Class 
+            //Class console /math 
+           // Car C1;
+            //Declare for references of type car
+            //this Reference 'C1' Can refer to an object of type "Car" and an object inherit from car
+            //CLR Will Allocate 4 UnInitializes Bytes in Stack for the reference of c1
+            //CLR Will Allocate 0 in Heap
+
+            //C1 = new Car(1, "BMW2020", 180);
+            // new 
+            //1.Allocate Required Number of Bytes for allocate object in Heap=16
+            //2.initialize the allocate Bytes for each and every attribute
+            //3.Call User defined constructor if exist
+            //4.return the address of allocated object in heap to the reference 'c1'
+            //the same because address object
+            //Console.WriteLine(C1);
+            //Console.WriteLine(C1.ToString());
+            //Car C2 = new Car(1, "BMW2020");
+
+
+            #endregion
         }
     }
 }
