@@ -28,18 +28,35 @@ namespace OOP02
             //Console.WriteLine(P01.ToString());  
             //Console.WriteLine(P01);
             #endregion
-            #region
-            //if i want not change after this make init .net5 
-            Employee employee = new Employee(1000, "Ahmed Nasr", 10_000)
-            {
-                Name = "Ahmed Sayed"
-            };
-            //employee.Id = 5000;//Set id through the field itself
-            //Console.WriteLine(employee.Id);//Get id throungh the field itself 
-            employee.SetId(2002);
-            Console.WriteLine(employee.GetId());
-            //employee.Name = "Nada Ahmed";
-            Console.WriteLine(employee.Name);
+            #region Encapsulation
+            ////if i want not change after this make init .net5 
+            //Employee employee = new Employee(1000, "Ahmed Nasr", 10_000)
+            //{
+            //    Name = "Ahmed Sayed"
+            //};
+            ////employee.Id = 5000;//Set id through the field itself
+            ////Console.WriteLine(employee.Id);//Get id throungh the field itself 
+            //employee.SetId(2002);
+            //Console.WriteLine(employee.GetId());
+            ////employee.Name = "Nada Ahmed";
+            //Console.WriteLine(employee.Name);
+            #endregion
+            #region Indexer
+            //string Name = "Ahmed";
+            //char[] Name = { 'A', 'h', 'm', 'e', 'd' }
+            //PhoneBook note = new PhoneBook(10);
+            //note.AddPerson(0, "Ahmed", 1111);
+            //note.AddPerson(1, "Nada", 2222);
+            //note.AddPerson(2, "Noura", 3333);
+            //note.AddPerson(3, "Nour", 4444);
+            ////note.SetNumber("Ahmed", 5555);
+            ////Console.WriteLine(note.GetNumber("Ahmed"));
+            //note["Ahmed"] = 7777;
+            //Console.WriteLine(note["Ahmed"]);
+            //for (int i = 0; i < note.Size; i++)
+            //{
+            //    Console.WriteLine(note[i]);
+            //}
             #endregion
         }
     }
