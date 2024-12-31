@@ -1,4 +1,6 @@
-﻿namespace OOP02
+﻿using OOP02.Encapsulation;
+
+namespace OOP02
 {
     internal class Program
     {
@@ -25,6 +27,19 @@
             //p01=new Point(0,0)
             //Console.WriteLine(P01.ToString());  
             //Console.WriteLine(P01);
+            #endregion
+            #region
+            //if i want not change after this make init .net5 
+            Employee employee = new Employee(1000, "Ahmed Nasr", 10_000)
+            {
+                Name = "Ahmed Sayed"
+            };
+            //employee.Id = 5000;//Set id through the field itself
+            //Console.WriteLine(employee.Id);//Get id throungh the field itself 
+            employee.SetId(2002);
+            Console.WriteLine(employee.GetId());
+            //employee.Name = "Nada Ahmed";
+            Console.WriteLine(employee.Name);
             #endregion
         }
     }
