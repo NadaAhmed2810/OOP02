@@ -54,6 +54,28 @@
             //Console.WriteLine($"The distance between the two points is: {distance:F2}");
 
             #endregion
+            #region Q3:Create a struct called "Person" with properties "Name" and "Age". Write a C# program that takes details of 3 persons as input from the user and displays the name and age of the oldest person.
+            //Person[] people = new Person[3];
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    Console.WriteLine($"Enter details for person {i + 1}:");
+
+            //    Console.Write("Name: ");
+            //    string name = Console.ReadLine();
+            //    int age;
+            //    bool f = false;
+            //    do
+            //    {
+            //        Console.Write("Age: ");
+            //        f = int.TryParse(Console.ReadLine(), out age);
+            //    } while (!f);
+            //    people[i] = new Person(name, age);
+
+            //    Console.WriteLine();  
+            //}
+            //Array.Sort(people, (p1, p2) => p2.Age.CompareTo(p1.Age));
+            //Console.WriteLine($"Oldest Person\n{people[0].ToString()}");
+            #endregion
             #endregion
         }
     }
