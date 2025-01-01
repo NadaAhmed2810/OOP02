@@ -1,4 +1,5 @@
 ﻿using OOP02.Encapsulation;
+using OOP02.inheritance;
 
 namespace OOP02
 {
@@ -60,7 +61,7 @@ namespace OOP02
             #endregion
             #region Class 
             //Class console /math 
-           // Car C1;
+            // Car C1;
             //Declare for references of type car
             //this Reference 'C1' Can refer to an object of type "Car" and an object inherit from car
             //CLR Will Allocate 4 UnInitializes Bytes in Stack for the reference of c1
@@ -79,6 +80,24 @@ namespace OOP02
 
 
             #endregion
+            #region inheritance [is a relationship]
+           //single [pure oop]
+           //if multipule can in inherite two  methods has same name
+           //association Has a [aggraction,compositition]   
+
+           //Parent parent = new Parent(1,2);
+           //parent.X = 11;
+           //parent.Y = 22;
+           //Console.WriteLine(parent);
+           //Console.WriteLine($"product= {parent.Product()}");
+            //Child child = new Child(0, 0, 0);
+            //child.X = 11;
+            //child.Y = 22;
+            //child.Z = 33;
+            //Console.WriteLine(child.ToString());
+            //Console.WriteLine($"product= {child.Product()}");
+            #endregion
+
         }
     }
 }
