@@ -77,6 +77,26 @@
             //Console.WriteLine($"Oldest Person\n{people[0].ToString()}");
             #endregion
             #endregion
+            #region part02
+            #region Part02
+            #region Q3:Create an array of Employees with size three a DBA, Guest and the third one is security officer who have full permissions. (Employee [] EmpArr;)
+
+            //Employee[] Arr = new Employee[3];
+            //Arr[0] = new Employee(101, "Nada", 9500,(Gender)1, Security.DBA,new HireDate(15, 6, 2018));
+            //Arr[1] = new Employee(102, "Noura",10000, (Gender)1,Security.Guest, new HireDate(10, 3, 2020));
+            //Arr[2] = new Employee(103, "Nour", 5000, (Gender)1, (Security)15, new HireDate(5, 9, 2017));
+
+
+            //Console.WriteLine("Original Employee List:");
+            //foreach (Employee emp in Arr)
+            //{
+            //    Console.WriteLine(emp.ToString());
+            //    Console.WriteLine();
+            //} 
+            #endregion
+    
+            #endregion
+            #endregion
         }
     }
 }
